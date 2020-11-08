@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "declension": ["rozkoszny", "rozkosznego", "rozkosznemu", "rozkosznym", "rozkoszniejszy", "rozkoszniejszego", "rozkoszniejszemu", "rozkoszniejszym", "najrozkoszniejszy", "najrozkoszniejszego", "najrozkoszniejszemu", "najrozkoszniejszym", "rozkoszna", "rozkosznej", "rozkoszną", "rozkoszniejsza", "rozkoszniejszej", "rozkoszniejszą", "najrozkoszniejsza", "najrozkoszniejszej", "najrozkoszniejszą", "rozkoszne", "rozkoszniejsze", "najrozkoszniejsze", "rozkoszni", "rozkosznych", "rozkosznymi", "rozkoszniejsi", "rozkoszniejszych", "rozkoszniejszymi", "najrozkoszniejsi", "najrozkoszniejszych", "najrozkoszniejszymi"],
+    "score": "H"
+  },
+  {
+    "id": 2,
+    "declension": ["świetny", "świetnego", "świetnemu", "świetnym", "świetniejszy", "świetniejszego", "świetniejszemu", "świetniejszym", "najświetniejszy", "najświetniejszego", "najświetniejszemu", "najświetniejszym", "świetna", "świetnej", "świetną", "świetniejsza", "świetniejszej", "świetniejszą", "najświetniejsza", "najświetniejszej", "najświetniejszą", "świetne", "świetniejsze", "najświetniejsze", "świetni", "świetnych", "świetnymi", "świetniejsi", "świetniejszych", "świetniejszymi", "najświetniejsi", "najświetniejszych", "najświetniejszymi"],
+    "score": "H"
+  },
+  {
+    "id": 3,
+    "declension": ["przyjaciel", "przyjaciela", "przyjacielowi", "przyjacielem", "przyjacielu", "przyjaciele", "przyjaciół", "przyjaciołom", "przyjaciółmi", "przyjaciołach"],
+    "score": "H"
+  },
+  {
+    "id": 4,
+    "declension": ["uśmiech", "uśmiechu", "uśmiechowi", "uśmiechem", "uśmiechy", "uśmiechów", "uśmiechom", "uśmiechami", "uśmiechach"],
+    "score": "H"
+  },
+  {
+    "id": 5,
+    "declension": ["pochwała", "pochwały", "pochwale", "pochwałę", "pochwałą", "pochwało", "pochwał", "pochwałom", "pochwałami", "pochwałach"],
+    "score": "H"
+  },
+  {
+    "id": 6,
+    "declension": ["winogrono", "winogrona", "winogronu", "winogronem", "winogronie", "winogron", "winogronom", "winogronami", "winogronach"],
+    "score": "H"
+  },
+  {
+    "id": 7,
+    "declension": ["tańczyć", "tańczyłem", "tańczyłam", "tańczyłeś", "tańczyłaś", "tańczył", "tańczyła", "tańczyliśmy", "tańczyłyśmy", "tańczyliście", "tańczyłyście", "tańczyli", "tańczyły"],
+    "score": "H"
+  },
+  {
+    "id": 8,
+    "declension": ["ładny", "ładnego", "ładnemu", "ładnym", "ładniejszy", "ładniejszego", "ładniejszemu", "ładniejszym", "najładniejszy", "najładniejszego", "najładniejszemu", "najładniejszym", "ładna", "ładnej", "ładną", "ładniejsza", "ładniejszej", "ładniejszą", "najładniejsza", "najładniejszej", "najładniejszą", "ładne", "ładniejsze", "najładniejsze", "ładni", "ładnych", "ładnymi", "ładniejsi", "ładniejszych", "ładniejszymi", "najładniejsi", "najładniejszych", "najładniejszymi"],
+    "score": "H"
+  },
+  {
+    "id": 9,
+    "declension": ["pomysł", "pomysłu", "pomysłowi", "pomysłem", "pomyśle", "pomysły", "pomysłów", "pomysłom", "pomysłami", "pomysłach"],
+    "score": "H"
+  }
+]
