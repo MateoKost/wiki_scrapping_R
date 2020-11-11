@@ -62,8 +62,11 @@ getDeclension <- function( page_html ) {
       if ( length( declension_df ) > 0 ) {
         declension_df %<>% select( contains( "przypadek" ) | starts_with( "liczba" ) )
         declension_df %<>% filter( przypadek %in% declension_forms )  %>% return()
-      } else form_word <<- 'brak odmiany' 
-    } 
+      } else {
+        form_word <<- 'brak odmiany' 
+        return()
+        }
+      } 
   }
 }
 
@@ -79,6 +82,7 @@ getWords <- function( word ) {
         return ( getDeclension( page_html ) )
       },
       error = function( e ) { 
+        return( word )
         print( e )
       }
   )
@@ -97,6 +101,7 @@ retrieve <- function( word ) {
       } else return ( c( word, declension ) )
     },
     error = function( e ){ 
+      return( word )
       print( e )
     }
   )
@@ -133,31 +138,28 @@ for(row in 1:3){
   }
   
   for( i in 1:scrap_depth ){
-    wordRegister <- c( wordRegister, synonyms ) %>% unique
     synonyms_2nd <- synonyms %>% unique
     synonyms <<- NULL
-    wordRegister <- c( wordRegister, cognates ) %>% unique
     cognates_2nd <- cognates %>% unique
     cognates <<- NULL
+    
     if( length( synonyms_2nd ) > 0 )
       for( synonym in synonyms_2nd ) {
-        #if( {
         if( !synonym %in% wordRegister & !is.na( synonym ) ) {
           declension <- retrieve( synonym ) 
           appendDeclension( row, declension, NAWLrow$category )
         }
-
-        #}
       }
+    wordRegister <- c( wordRegister, synonyms_2nd ) %>% unique
+    
     if( length( cognates_2nd ) > 0 )
       for( cognate in cognates_2nd ) {
         if( !cognate %in% wordRegister &!is.na( cognate ) ) {
           declension <- retrieve( cognate ) 
           appendDeclension( row, declension, NAWLrow$category )
         }
-        #if( {
-         # }
       }
+    wordRegister <- c( wordRegister, cognates_2nd ) %>% unique
   }
   
   #TO JSON:
@@ -169,15 +171,5 @@ for(row in 1:3){
 
 #Save extended NAWL to JSON
 #toJSON( nawlJSON, encoding = "UTF-8", pretty = TRUE) %>% write("nawl_extended_2.json" )
-
-word <- 'błogostan'
-url <- paste(wiki_href, word, sep = "")
-page_html <- url %>% read_html()
-cognates_once <- page_html %>% html_nodes( xpath = cognate_xpath ) %>% html_text()
-cognates_once <- gsub( ' się', '', cognates_once ) %>% unlist( use.names = FALSE )
-if( length( cognates_once ) >= 0 ) 
-  cognates <<- c( cognates, cognates_once ) %>% unique() 
-
-
 
 
