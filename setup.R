@@ -19,3 +19,4 @@ declension_forms <- c("mianownik", "dopełniacz", "celownik","biernik","narzędn
 synonyms <- NULL
 synonyms_2nd <- NULL
 skip_to_next <- FALSE
+form_word <- ''
