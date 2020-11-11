@@ -6,37 +6,65 @@ nawlJSON <- data.frame( id=integer(), declension=factor(), score=factor() )
 #target_categories <- c('A', 'S','F', 'D')
 #NAWL %<>% select(lp, word, category) %>% filter( category == target_categories )
 
+updateCognates <- function( page_html ) {
+  page_html -> page_html
+  cognates_once <- page_html %>% html_nodes( xpath = cognate_xpath ) %>% html_text()
+  cognates_once <- gsub( ' się', '', cognates_once ) %>% unlist( use.names = FALSE )
+  if( length( cognates_once ) > 0 ) 
+    cognates <<- c( cognates, cognates_once ) %>% unique() 
+}
 
 updateSynonyms <- function( page_html ) {
   page_html -> page_html
   synonyms_once <- page_html %>% html_nodes( xpath = synonyms_xpath ) %>% html_text()
   synonyms_once <- gsub( '.*[[:space:]].*', '#', synonyms_once )
   synonyms_once <- synonyms_once[ synonyms_once != c('#','') ] %>% unlist(use.names = FALSE)
-  if( !is.null( synonyms_once ) ) 
+  if( length( synonyms_once ) > 0 ) 
     synonyms <<- c( synonyms, synonyms_once) %>% unique() 
 }
 
 getDeclension <- function( page_html ) {
   page_html -> page_html
-  form_class <- page_html %>% html_nodes( xpath = form_class_xpath ) %>% html_text()
-  declension_df <- page_html %>% html_node( xpath = declension_xpath ) %>% html_table( fill = TRUE )
-  declension_df %<>% as.data.frame() %>% set_names( make.unique( names(.) ) ) 
-  if( length( i <- grep( "czasownik", form_class[ 1 ] ) ) ) {
-    if( length( i <- grep( "dk.", form_class[ 1 ] ) ) 
-        & !length(i <- grep( "dk. brak", form_class[ 1 ] ) ) ){
-      form_word <<- "czasownik"
-      gsub( ".*dk\\. (.+?)\\).*", "\\1", form_class[ 1 ] ) %>% getWords() %>% return()
-    } else { 
-      declension_df %<>% select( contains( "forma" ) | starts_with( "liczba" ) )
-      declension_df %<>% filter( forma %in% conjugation_forms )  %>% return()
+  form_class <- page_html %>% html_node( xpath = form_class_xpath ) %>% html_text()
+  
+  if( length( i <- grep( "przysłówek", form_class ) ) ) {
+    form_word <<- "przysłówek"
+    declension_df <- page_html %>% html_nodes( xpath = gradation_xpath  ) %>% html_text()
+    if ( length( declension_df ) > 0 ) {
+      declension_df %<>% extract(2:3) %>% removePunctuation() 
+      declension_df <- gsub( '[[:space:]]', '', declension_df ) 
+      declension_df %>% print()
+      declension_df %>% return()
     }
-  } else if( length( i <- grep( "przymiotnik|rzeczownik", form_class[ 1 ] ) ) ){
-    if( length( i <- grep( "przymiotnik", form_class[ 1 ] ) ) )
+    return(NULL)
+  } else {
+    declension_df <- page_html %>% html_node( xpath = declension_xpath ) 
+    if ( length( declension_df ) > 0 ) {
+      declension_df %<>% html_table( fill = TRUE )
+      declension_df %<>% as.data.frame() %>% set_names( make.unique( names(.) ) ) 
+    }
+    if( length( i <- grep( "czasownik", form_class ) ) ) {
+      if( length( i <- grep( "dk.", form_class ) ) 
+          & !length(i <- grep( "dk. brak", form_class ) ) ){
+        form_word <<- "czasownik"
+        gsub( ".*dk\\. (.+?)\\).*", "\\1", form_class ) %>% getWords() %>% return()
+      } else { 
+        form_word <<- "czasownik"
+        if ( length( declension_df ) > 0 ) {
+          declension_df %<>% select( contains( "forma" ) | starts_with( "liczba" ) )
+          declension_df %<>% filter( forma %in% conjugation_forms )  %>% return()
+        }
+      }
+    } else if( length( i <- grep( "przymiotnik|rzeczownik", form_class[ 1 ] ) ) ){
+      if( length( i <- grep( "przymiotnik", form_class ) ) )
         form_word <<- "przymiotnik"
-    else form_word <<- "rzeczownik"
-    declension_df %<>% select( contains( "przypadek" ) | starts_with( "liczba" ) )
-    declension_df %<>% filter( przypadek %in% declension_forms )  %>% return()
-  } 
+      else form_word <<- "rzeczownik"
+      if ( length( declension_df ) > 0 ) {
+        declension_df %<>% select( contains( "przypadek" ) | starts_with( "liczba" ) )
+        declension_df %<>% filter( przypadek %in% declension_forms )  %>% return()
+      } else form_word <<- 'brak odmiany' 
+    } 
+  }
 }
 
 getWords <- function( word ) {
@@ -45,8 +73,9 @@ getWords <- function( word ) {
   tryCatch(
       expr = {
         page_html <- url %>% read_html()
-        Sys.sleep( 1 )
+        Sys.sleep( 1.5 )
         updateSynonyms( page_html )
+        updateCognates( page_html )
         return ( getDeclension( page_html ) )
       },
       error = function( e ) { 
@@ -60,10 +89,12 @@ retrieve <- function( word ) {
     expr = {
       print( word )
       declension <- word %>% getWords()
-      declension %<>% select( starts_with( "liczba" ) )
-      declension %<>% unlist( use.names = FALSE) %>% unique()
-      #declension %<>% paste( collapse=',' ) 
-      return( declension )
+      if ( !form_word %in% c( 'przysłówek', 'brak odmiany' ) ) {
+        declension %<>% select( starts_with( "liczba" ) )
+        declension %<>% unlist( use.names = FALSE) %>% unique()
+        #declension %<>% paste( collapse=',' ) 
+        return( declension )
+      } else return ( c( word, declension ) )
     },
     error = function( e ){ 
       print( e )
@@ -82,27 +113,50 @@ appendDeclension <- function( id, declension, category ) {
 }
 
 #nrow( NAWL )
+
+wordRegister <- NULL
+
 for(row in 1:3){
 
   synonyms <<- NULL
+  cognates <<- NULL
   NAWLrow <- NAWL[ row, ]
   
   declension <- NAWLrow$word %>% retrieve
-
+  wordRegister <- c( wordRegister, NAWLrow$word )
+  
   appendDeclension( row, declension, NAWLrow$category )
   
-  if( is.null( synonyms ) ) {
+  if( is.null( synonyms ) & is.null( cognates )) {
     print('INFO - SYNONYMS SKIPPED')  
     next
   }
   
   for( i in 1:scrap_depth ){
-    synonyms_2nd <- synonyms
+    wordRegister <- c( wordRegister, synonyms ) %>% unique
+    synonyms_2nd <- synonyms %>% unique
     synonyms <<- NULL
-    if( !is.null( synonyms_2nd ) )
+    wordRegister <- c( wordRegister, cognates ) %>% unique
+    cognates_2nd <- cognates %>% unique
+    cognates <<- NULL
+    if( length( synonyms_2nd ) > 0 )
       for( synonym in synonyms_2nd ) {
-        declension <- retrieve( synonym ) 
-        appendDeclension( row, declension, NAWLrow$category )
+        #if( {
+        if( !synonym %in% wordRegister & !is.na( synonym ) ) {
+          declension <- retrieve( synonym ) 
+          appendDeclension( row, declension, NAWLrow$category )
+        }
+
+        #}
+      }
+    if( length( cognates_2nd ) > 0 )
+      for( cognate in cognates_2nd ) {
+        if( !cognate %in% wordRegister &!is.na( cognate ) ) {
+          declension <- retrieve( cognate ) 
+          appendDeclension( row, declension, NAWLrow$category )
+        }
+        #if( {
+         # }
       }
   }
   
@@ -116,7 +170,13 @@ for(row in 1:3){
 #Save extended NAWL to JSON
 #toJSON( nawlJSON, encoding = "UTF-8", pretty = TRUE) %>% write("nawl_extended_2.json" )
 
-
+word <- 'błogostan'
+url <- paste(wiki_href, word, sep = "")
+page_html <- url %>% read_html()
+cognates_once <- page_html %>% html_nodes( xpath = cognate_xpath ) %>% html_text()
+cognates_once <- gsub( ' się', '', cognates_once ) %>% unlist( use.names = FALSE )
+if( length( cognates_once ) >= 0 ) 
+  cognates <<- c( cognates, cognates_once ) %>% unique() 
 
 
 
