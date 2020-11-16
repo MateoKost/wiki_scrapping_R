@@ -101,26 +101,25 @@ retrieve <- function( word ) {
         )
 }
 
-appendDeclension <- function( id, declension ) {
-        dfa <- data.frame( id=id, declension = declension,  category = category )
-        write.table( dfa,  
-                     file = "./declension_hatred.csv", 
-                     append = T, 
-                     sep = ';', 
-                     row.names = F, 
-                     col.names = F, fileEncoding = "windows-1250" )
-}
-
-
-
-appendRegister <- function( id, deph, type, type_id, word, category ) {
-        dfa <- data.frame( id = id, deph = deph, type = type, type_id = type_id, 
-                           word = word, form = form_word, category = category )
-        write.table( dfa,  
-                     file = "./register_hatred.csv", 
-                     append = T, 
-                     sep = ';', 
-                     row.names = F, 
+appendWord <- function( wordParams, declension, dest ) {
+        
+        rId  <- wordParams[ 'rId' ]
+        deph  <- wordParams[ 'deph' ]
+        typ  <- wordParams[ 'typ' ]
+        tpId <- wordParams[ 'tpId' ]
+        cat  <- wordParams[ 'cat' ]
+        
+        if( dest == 'R' ) {
+                df <- data.frame( id = rId, deph = deph, type = typ, type_id = tpId, 
+                                  word = declension, form = form_word, category = cat )
+                file_loc = "./register_hatred.csv"
+        } else if ( dest == 'D' ) {
+                df <- data.frame( Id = rId, deph = deph, type = typ, type_id = tpId,
+                                  declension = declension )
+                file_loc = "./declension_hatred.csv"
+               
+        }
+        write.table( df, file = file_loc, append = T, sep = ';', row.names = F, 
                      col.names = F, fileEncoding = "windows-1250" )
 }
 
@@ -129,22 +128,27 @@ resetResemblingWords <- function() {
         cognates <<- NULL
 }
 
-
-handleResemblingWords  <- function( row, deph, type, resemblingWords ) {
+handleResemblingWords  <- function( wordParams, resemblingWords ) {
+        if( wordParams[ 'typ' ] == 'S' )
+                message <- '---synonyms-row-%s---'
+        else if( wordParams[ 'typ' ] == 'C' )
+                message <- '---cognates-row-%s---'
         
-        if( type == 'S' )
-                sprintf( '---synonyms-row-%s---', row ) %>% print()
-        else 
-                sprintf( '---cognates-row-%s---', row ) %>% print()
+        sprintf( message, row ) %>% print
         
         if( length( resemblingWords ) > 0 )
                 for( word in resemblingWords ) {
                         if( !word %in% wordRegister & !is.na( word ) ) {
                                 declension <- retrieve( word ) 
-                                word_id = which( resemblingWords == word )
-                                appendDeclension( row, declension )
-                                appendRegister( row, deph, type, word_id, word, NAWLrow$category )
+                                wordParams[ 'tpId' ] <- which( resemblingWords == word )
+                                appendWord( wordParams, declension, 'D' )
+                                appendWord( wordParams, word, 'R' )
                         }
                 }
+        
         wordRegister <<- c( wordRegister, resemblingWords ) %>% unique
 }
+
+
+
+
