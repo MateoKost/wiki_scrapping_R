@@ -1,0 +1,1150 @@
+id;deph;type;type_id;word;form;category
+1;1;C;1;baranek;rzeczownik;N
+1;1;C;2;baranina;rzeczownik;N
+1;1;C;3;baranica;rzeczownik;N
+1;1;C;7;baraninka;brak odmiany;N
+1;1;C;8;baranËiatko;brak odmiany;N
+1;1;C;9;baranËek;brak odmiany;N
+1;1;C;10;baranËa;brak odmiany;N
+1;1;C;11;baranËina;brak odmiany;N
+1;1;C;12;baranec;brak odmiany;N
+1;1;C;13;baranidlo;brak odmiany;N
+1;1;C;14;bar·nok;brak odmiany;N
+1;1;C;15;baranÌ;brak odmiany;N
+1;1;C;16;baranËÌ;brak odmiany;N
+1;2;S;2;accent;brak odmiany;N
+1;2;S;3;betoning;brak odmiany;N
+1;2;S;4;afa;brak odmiany;N
+1;2;S;5;at;rzeczownik;N
+1;2;S;9;duchna;rzeczownik;N
+1;2;S;10;duchniczka;rzeczownik;N
+1;2;S;11;#;rzeczownik;N
+1;2;S;12;kszyk;rzeczownik;N
+1;2;S;13;kozio≥ek;brak odmiany;N
+1;2;S;14;skopowina;brak odmiany;N
+1;2;S;16;Ari;brak odmiany;N
+1;2;S;17;<U+2648>;brak odmiany;N
+1;2;S;18;jahÚa;brak odmiany;N
+1;2;C;1;trykaÊ;brak odmiany;N
+1;2;C;2;trykke;czasownik;N
+1;2;C;3;ma≥piatka;czasownik;N
+1;2;C;24;barankowy;przymiotnik;N
+1;2;C;31;baranËinov˝;przymiotnik;N
+1;2;C;34;baraneczek;przymiotnik;N
+1;2;C;41;barankowoúÊ;brak odmiany;N
+1;2;C;42;barankowatoúÊ;brak odmiany;N
+1;2;C;44;baraniarka;brak odmiany;N
+1;2;C;45;baranki;brak odmiany;N
+1;2;C;46;baraniucha;brak odmiany;N
+1;2;C;48;BaranÛw;brak odmiany;N
+1;2;C;49;Baranowo;brak odmiany;N
+1;2;C;51;barankowaty;brak odmiany;N
+1;2;C;52;baranowski;brak odmiany;N
+3;1;S;2;ubÛstwo;rzeczownik;N
+3;1;S;3;niedostatek;rzeczownik;N
+3;1;S;4;k≥opot;rzeczownik;N
+3;1;S;5;problem;rzeczownik;N
+3;1;S;6;biedka;rzeczownik;N
+3;1;S;7;nedostatok;brak odmiany;N
+3;1;S;8;psota;brak odmiany;N
+3;1;S;9;n˙dza;brak odmiany;N
+3;1;C;2;biedaczek;rzeczownik;N
+3;1;C;3;biedaczka;rzeczownik;N
+3;1;C;4;biedactwo;rzeczownik;N
+3;2;S;1;wielka;przys≥Ûwek;N
+3;2;S;3;skrajne;przys≥Ûwek;N
+3;2;S;10;ja≥owoúÊ;brak odmiany;N
+3;2;S;11;deficyt;rzeczownik;N
+3;2;S;12;niedobÛr;brak odmiany;N
+3;2;S;13;niedomiar;brak odmiany;N
+3;2;S;14;niezamoønoúÊ;brak odmiany;N
+3;2;S;15;bryndza;rzeczownik;N
+3;2;S;17;pauperyzm;rzeczownik;N
+3;2;S;19;ambaras;rzeczownik;N
+3;2;S;20;powik≥anie;brak odmiany;N
+3;2;S;21;trudnoúÊ;rzeczownik;N
+3;2;S;22;komplikacja;rzeczownik;N
+3;2;S;23;przeciwnoúÊ;rzeczownik;N
+3;2;S;24;tarapaty;rzeczownik;N
+3;2;S;25;szkopu≥;rzeczownik;N
+3;2;S;26;staroúÊ;rzeczownik;N
+3;2;S;27;suøyni;brak odmiany;N
+3;2;S;28;opresyj;brak odmiany;N
+3;2;S;30;gips;rzeczownik;N
+3;2;S;32;kram;rzeczownik;N
+3;2;S;35;zgryz;rzeczownik;N
+3;2;S;36;kwestia;rzeczownik;N
+3;2;S;37;punkt;rzeczownik;N
+3;2;S;38;pytanie;rzeczownik;N
+3;2;S;39;zagadnienie;rzeczownik;N
+3;2;S;40;≥amig≥Ûwka;brak odmiany;N
+3;2;S;41;zagwozdka;rzeczownik;N
+3;2;S;42;trouble;brak odmiany;N
+3;2;S;43;difficulty;brak odmiany;N
+3;2;S;44;question;brak odmiany;N
+3;2;S;45;exercise;brak odmiany;N
+3;2;S;46;m<U+0259>s<U+0259>l<U+0259>;brak odmiany;N
+3;2;S;48;dowcip;rzeczownik;N
+3;2;S;49;figiel;rzeczownik;N
+3;2;S;50;psikus;rzeczownik;N
+3;2;S;51;øart;rzeczownik;N
+3;2;S;52;s≥ota;brak odmiany;N
+3;2;S;53;chudzielec;rzeczownik;N
+3;2;S;54;chudeusz;rzeczownik;N
+3;2;S;56;chudobnosÊ;rzeczownik;N
+3;2;S;61;biedaczysko;rzeczownik;N
+3;2;S;62;biedula;rzeczownik;N
+3;2;S;63;biedulka;rzeczownik;N
+3;2;S;64;chudziaczek;rzeczownik;N
+3;2;S;65;chudziak;rzeczownik;N
+3;2;S;66;chudzina;brak odmiany;N
+3;2;S;67;nieboøÍ;rzeczownik;N
+3;2;S;68;nieboøπtko;rzeczownik;N
+3;2;S;69;nieboga;rzeczownik;N
+3;2;S;70;nieboraczek;rzeczownik;N
+3;2;S;71;nieborak;rzeczownik;N
+3;2;S;72;nieszczÍúliwiec;rzeczownik;N
+3;2;S;73;nieszczÍúnik;rzeczownik;N
+3;2;S;74;ubogi;przymiotnik;N
+3;2;S;75;niezamoøny;przymiotnik;N
+3;2;S;76;chudobny;brak odmiany;N
+3;2;S;77;v‰nta;czasownik;N
+3;2;S;78;inv‰nta;czasownik;N
+3;2;S;79;avvakta;czasownik;N
+3;2;S;82;uboøeÊ;rzeczownik;N
+3;2;C;17;uboøuchny;przymiotnik;N
+3;2;C;19;ubogoúÊ;rzeczownik;N
+3;2;C;20;niedostateczny;przymiotnik;N
+3;2;C;21;niedostatecznoúÊ;rzeczownik;N
+3;2;C;22;niedostatecznie;przys≥Ûwek;N
+3;2;C;23;k≥opotliwoúÊ;rzeczownik;N
+3;2;C;24;zak≥opotanie;rzeczownik;N
+3;2;C;25;k≥opotaÊ;czasownik;N
+3;2;C;26;zak≥opotaÊ;czasownik;N
+3;2;C;27;k≥opotliwy;przymiotnik;N
+3;2;C;28;k≥opotliwie;przymiotnik;N
+3;2;C;29;problemat;przymiotnik;N
+3;2;C;30;problemacik;przymiotnik;N
+3;2;C;31;problematyka;brak odmiany;N
+3;2;C;32;problematycznoúÊ;rzeczownik;N
+3;2;C;33;problemowoúÊ;rzeczownik;N
+3;2;C;36;prolematyzowanie;rzeczownik;N
+3;2;C;37;problematyzowaÊ;rzeczownik;N
+3;2;C;42;problematic;brak odmiany;N
+3;2;C;43;problematical;brak odmiany;N
+3;2;C;44;problematically;przys≥Ûwek;N
+3;2;C;45;problematisk;brak odmiany;N
+3;2;C;46;problemfri;brak odmiany;N
+3;2;C;47;problematik;brak odmiany;N
+3;2;C;48;problematisering;brak odmiany;N
+3;2;C;49;problematisera;czasownik;N
+3;2;C;50;nedostatkov˝;czasownik;N
+3;2;C;59;psocÎc;przys≥Ûwek;N
+3;2;C;60;psotlÎwi;przys≥Ûwek;N
+3;2;C;61;n˙dzov˝;przys≥Ûwek;N
+3;2;C;62;n˙dzovo;przys≥Ûwek;N
+3;2;C;64;chudobnie;przys≥Ûwek;N
+3;2;C;65;chudobno;przys≥Ûwek;N
+3;2;C;66;chudaËka;rzeczownik;N
+3;2;C;67;chud·k;rzeczownik;N
+3;2;C;68;chudobka;rzeczownik;N
+3;2;C;69;chudnout;czasownik;N
+3;2;C;70;chud˝;przymiotnik;N
+3;2;C;71;chudy;przymiotnik;N
+3;2;C;72;chudÙbka;brak odmiany;N
+3;2;C;73;chudobnosù;brak odmiany;N
+3;2;C;74;chudobnieù;czasownik;N
+3;2;C;75;schudobnieù;czasownik;N
+3;2;C;76;chudobn˝;brak odmiany;N
+3;2;C;77;chudobne;brak odmiany;N
+3;2;C;94;bidan;brak odmiany;N
+3;2;C;95;bidande;brak odmiany;N
+4;1;C;1;brud;rzeczownik;N
+4;1;C;2;brudownik;rzeczownik;N
+4;1;C;3;brudzenie;rzeczownik;N
+4;1;C;4;zabrudzenie;rzeczownik;N
+4;1;C;5;ubrudziÊ;czasownik;N
+4;1;C;6;brudziÊ;czasownik;N
+4;2;S;19;asfalt;rzeczownik;N
+4;2;S;29;tjej;brak odmiany;N
+4;2;S;31;zanieczyszczaÊ;czasownik;N
+4;2;S;40;zabrudzony;czasownik;N
+4;2;S;41;zanieczyszczony;czasownik;N
+4;2;S;42;zmazany;brak odmiany;N
+4;2;S;46;grzeszny;przymiotnik;N
+4;2;S;47;nieuczciwy;przymiotnik;N
+4;2;S;48;niemoralny;przymiotnik;N
+4;2;S;49;nieprzyzwoity;przymiotnik;N
+4;2;S;50;nieczysto;przys≥Ûwek;N
+4;2;C;6;negacja;rzeczownik;N
+4;2;C;7;abnegacja;rzeczownik;N
+4;2;C;9;abnegacki;rzeczownik;N
+4;2;C;11;czerÒ;rzeczownik;N
+4;2;C;12;czarny;przymiotnik;N
+4;2;C;14;czarno;przys≥Ûwek;N
+4;2;C;22;pobrudziÊ;przys≥Ûwek;N
+4;2;C;23;zabrudzaÊ;przys≥Ûwek;N
+4;2;C;24;zabrudziÊ;czasownik;N
+4;2;C;25;bryde;czasownik;N
+4;2;C;29;nabrudziÊ;rzeczownik;N
+4;2;C;30;przybrudziÊ;rzeczownik;N
+4;2;C;31;wybrudziÊ;rzeczownik;N
+4;2;C;32;brudek;rzeczownik;N
+4;2;C;34;brudnawy;rzeczownik;N
+4;2;C;35;brudniuteÒski;rzeczownik;N
+4;2;C;36;brudnawo;rzeczownik;N
+4;2;C;37;brudno-;rzeczownik;N
+5;1;C;1;buraczki;rzeczownik;N
+5;1;C;9;burakowy;przymiotnik;N
+5;2;S;1;obieøyúwiat;rzeczownik;N
+5;2;S;2;tu≥acz;rzeczownik;N
+5;2;S;3;≥azik;rzeczownik;N
+5;2;S;4;wagabunda;rzeczownik;N
+5;2;S;5;wa≥Ísa;rzeczownik;N
+5;2;S;6;wÍdrowiec;brak odmiany;N
+5;2;S;7;w≥Ûczykij;rzeczownik;N
+5;2;S;8;tramp;rzeczownik;N
+5;2;S;12;bradiaga;rzeczownik;N
+5;2;S;13;bradziaga;rzeczownik;N
+5;2;S;14;andrus;rzeczownik;N
+5;2;S;15;rajza;rzeczownik;N
+5;2;S;16;tu≥aczka;rzeczownik;N
+5;2;S;18;wÍdrÛwka;brak odmiany;N
+6;1;S;12;nieporzπdek;rzeczownik;N
+6;1;S;13;prostÌbulo;brak odmiany;N
+6;1;S;14;mancebÌa;brak odmiany;N
+6;1;S;15;ramerÌa;brak odmiany;N
+6;1;S;16;puticlub;brak odmiany;N
+6;1;S;17;puterÌa;brak odmiany;N
+6;2;S;22;mÍtlik;brak odmiany;N
+6;2;S;23;pandemonium;rzeczownik;N
+6;2;S;24;nie≥ad;rzeczownik;N
+6;2;S;27;zamÍt;brak odmiany;N
+6;2;S;30;ko≥owrÛt;rzeczownik;N
+6;2;S;38;fornix;brak odmiany;N
+6;2;C;2;bajzlowaÊ;czasownik;N
+6;2;C;3;lupa;rzeczownik;N
+6;2;C;4;lupanarium;rzeczownik;N
+6;2;C;5;lupanaria;rzeczownik;N
+6;2;C;6;lupana;rzeczownik;N
+6;2;C;7;lupanaris;brak odmiany;N
+6;2;C;8;lupanarius;brak odmiany;N
+6;2;C;9;ba≥aganiarz;rzeczownik;N
+6;2;C;10;ba≥aganiara;rzeczownik;N
+6;2;C;11;ba≥aganiarstwo;rzeczownik;N
+6;2;C;12;ba≥aganienie;rzeczownik;N
+6;2;C;13;zaba≥aganienie;rzeczownik;N
+6;2;C;14;naba≥aganienie;rzeczownik;N
+6;2;C;15;ba≥aganiÊ;czasownik;N
+6;2;C;16;zaba≥aganiÊ;czasownik;N
+6;2;C;17;naba≥aganiÊ;czasownik;N
+6;2;C;18;ba≥aganiarski;przymiotnik;N
+6;2;C;25;prostituir;czasownik;N
+6;2;C;26;prostituirse;czasownik;N
+6;2;C;27;prostituciÛn;brak odmiany;N
+6;2;C;28;prostituta;brak odmiany;N
+6;2;C;29;prostituto;brak odmiany;N
+6;2;C;30;ramera;brak odmiany;N
+7;1;S;11;bajka;rzeczownik;N
+7;1;S;13;b≥ahostka;brak odmiany;N
+7;2;S;20;k≥amstewko;rzeczownik;N
+7;2;S;37;bera;brak odmiany;N
+7;2;S;39;wanna;rzeczownik;N
+7;2;S;40;baúÒ;rzeczownik;N
+7;2;S;41;bojka;rzeczownik;N
+7;2;S;42;kreskÛwka;rzeczownik;N
+7;2;S;43;pikuú;rzeczownik;N
+7;2;S;46;drobnostka;rzeczownik;N
+7;2;S;47;bagatela;rzeczownik;N
+7;2;S;50;niedorzecznoúci;rzeczownik;N
+7;2;C;14;absurdity;brak odmiany;N
+7;2;C;15;absurdly;przys≥Ûwek;N
+7;2;C;16;Absurdit‰t;rzeczownik;N
+7;2;C;17;absurditet;brak odmiany;N
+7;2;C;20;k≥amczuch;rzeczownik;N
+7;2;C;21;k≥amczucha;rzeczownik;N
+7;2;C;51;bajkowy;przymiotnik;N
+7;2;C;52;bajeczny;przymiotnik;N
+7;2;C;53;bajkowo;przymiotnik;N
+7;2;C;54;bajecznie;przys≥Ûwek;N
+7;2;C;56;myúl;rzeczownik;N
+7;2;C;57;myúlowy;przymiotnik;N
+8;1;S;6;irritation;brak odmiany;N
+8;1;S;7;ira;rzeczownik;N
+8;1;S;8;furor;rzeczownik;N
+8;1;S;9;phrenesia;brak odmiany;N
+8;1;S;10;rabie;brak odmiany;N
+8;1;S;11;rage;brak odmiany;N
+8;1;C;17;choleraic;brak odmiany;N
+8;1;C;18;cholerina;brak odmiany;N
+8;1;C;19;choleric;brak odmiany;N
+8;1;C;20;incholerisar;czasownik;N
+8;1;C;21;choleretikum;brak odmiany;N
+8;1;C;22;cholerÌna;brak odmiany;N
+8;1;C;23;cholerik;rzeczownik;N
+8;1;C;24;choleriËka;brak odmiany;N
+8;1;C;25;cholerick˝;brak odmiany;N
+8;1;C;26;cholerov˝;brak odmiany;N
+8;1;C;27;cholericky;przys≥Ûwek;N
+8;2;S;5;boba;brak odmiany;N
+8;2;S;6;bob;rzeczownik;N
+8;2;S;7;pikieta;rzeczownik;N
+8;2;S;8;znachorka;rzeczownik;N
+8;2;S;9;maskuilo;brak odmiany;N
+8;2;S;10;pusla;brak odmiany;N
+8;2;S;11;baka;brak odmiany;N
+8;2;S;12;saliva;brak odmiany;N
+8;2;S;13;humor;rzeczownik;N
+8;2;S;14;babay;rzeczownik;N
+8;2;S;15;bÈbi;brak odmiany;N
+8;2;S;16;˙jsz¸lˆtt;brak odmiany;N
+8;2;S;17;csecsemı;brak odmiany;N
+8;2;S;18;przodek;rzeczownik;N
+8;2;S;19;praojciec;rzeczownik;N
+8;2;S;20;antenat;rzeczownik;N
+8;2;S;21;ascendent;brak odmiany;N
+8;2;S;22;wstÍpny;przymiotnik;N
+8;2;S;26;rzep;rzeczownik;N
+8;2;S;32;amok;rzeczownik;N
+8;2;S;33;sza≥;rzeczownik;N
+8;2;S;34;wúciek≥oúÊ;rzeczownik;N
+8;2;S;35;pasja;rzeczownik;N
+8;2;S;40;cÛlera;brak odmiany;N
+8;2;S;41;rabia;brak odmiany;N
+8;2;S;42;demencia;brak odmiany;N
+8;2;S;43;locura;brak odmiany;N
+8;2;S;44;enajenaciÛn;brak odmiany;N
+8;2;S;45;enloquecimiento;brak odmiany;N
+8;2;S;46;violencia;brak odmiany;N
+8;2;S;47;fiereza;brak odmiany;N
+8;2;S;48;impetuosidad;brak odmiany;N
+8;2;S;49;vehemencia;brak odmiany;N
+8;2;S;50;fuerza;brak odmiany;N
+8;2;S;51;Ìmpetu;brak odmiany;N
+8;2;S;56;furore;brak odmiany;N
+8;2;S;57;rabbia;brak odmiany;N
+8;2;S;58;collera;czasownik;N
+8;2;S;59;agitazione;brak odmiany;N
+8;2;S;60;pazzia;brak odmiany;N
+8;2;S;61;forza;brak odmiany;N
+8;2;S;62;impeto;brak odmiany;N
+8;2;S;63;impetuosita;brak odmiany;N
+8;2;S;64;foga;czasownik;N
+8;2;S;65;fretta;brak odmiany;N
+8;2;S;66;precipitazione;brak odmiany;N
+8;2;S;67;premura;brak odmiany;N
+8;2;S;68;urgenza;brak odmiany;N
+8;2;S;69;iratze;brak odmiany;N
+8;2;S;70;garo;brak odmiany;N
+8;2;S;71;enojo;brak odmiany;N
+8;2;S;72;indignaciÛn;brak odmiany;N
+8;2;S;74;colera;brak odmiany;N
+8;2;S;75;rabia;brak odmiany;N
+8;2;S;76;bile;brak odmiany;N
+8;2;S;77;stizza;brak odmiany;N
+8;2;S;78;malevolenza;brak odmiany;N
+8;2;S;79;odio;brak odmiany;N
+8;2;S;80;violenza;brak odmiany;N
+8;2;S;82;gwa≥townoúÊ;rzeczownik;N
+8;2;S;83;impulsywnoúÊ;rzeczownik;N
+8;2;S;84;wybuchowoúÊ;brak odmiany;N
+8;2;S;85;porywczoúÊ;brak odmiany;N
+8;2;S;86;raptownoúÊ;rzeczownik;N
+8;2;S;87;impetyk;rzeczownik;N
+8;2;S;90;prudko;rzeczownik;N
+8;2;S;91;v˝buöne;rzeczownik;N
+8;2;C;1;babcia;rzeczownik;N
+8;2;C;2;babunia;rzeczownik;N
+8;2;C;10;babagjysh;brak odmiany;N
+8;2;C;11;babear;czasownik;N
+8;2;C;12;baboso;czasownik;N
+8;2;C;13;babeo;brak odmiany;N
+8;2;C;14;babero;brak odmiany;N
+8;2;C;15;babica;brak odmiany;N
+8;2;C;16;babu;brak odmiany;N
+8;2;C;17;babalik;brak odmiany;N
+8;2;C;34;enfurecer;rzeczownik;N
+8;2;C;35;enfurecerse;rzeczownik;N
+8;2;C;36;furioso;brak odmiany;N
+8;2;C;37;furiente;brak odmiany;N
+8;2;C;38;furiosamente;przys≥Ûwek;N
+8;2;C;39;furiositate;przys≥Ûwek;N
+8;2;C;40;furiose;brak odmiany;N
+8;2;C;41;infuriate;czasownik;N
+8;2;C;42;furiar;czasownik;N
+8;2;C;43;infuriar;czasownik;N
+8;2;C;44;furiata;czasownik;N
+8;2;C;45;infuriamento;czasownik;N
+8;2;C;46;furiare;czasownik;N
+8;2;C;47;infuriare;czasownik;N
+8;2;C;48;furente;brak odmiany;N
+8;2;C;49;furiale;brak odmiany;N
+8;2;C;50;furibondo;brak odmiany;N
+8;2;C;51;infuriato;brak odmiany;N
+8;2;C;52;irritate;czasownik;N
+8;2;C;53;irritable;brak odmiany;N
+8;2;C;54;irritative;brak odmiany;N
+8;2;C;55;irritant;brak odmiany;N
+8;2;C;56;irritating;czasownik;N
+8;2;C;57;irritability;brak odmiany;N
+8;2;C;58;irritera;czasownik;N
+8;2;C;59;iracundo;czasownik;N
+8;2;C;60;irascible;brak odmiany;N
+8;2;C;61;iracundia;brak odmiany;N
+8;2;C;62;irascibilidad;brak odmiany;N
+8;2;C;63;irate;brak odmiany;N
+8;2;C;64;irascer;czasownik;N
+8;2;C;65;iracondia;czasownik;N
+8;2;C;66;irascibilita;brak odmiany;N
+8;2;C;67;irarsi;brak odmiany;N
+8;2;C;68;iroso;brak odmiany;N
+8;2;C;69;irato;czasownik;N
+8;2;C;70;iracondo;czasownik;N
+8;2;C;71;irascibile;brak odmiany;N
+8;2;C;72;irosamente;brak odmiany;N
+8;2;C;73;iratamente;brak odmiany;N
+8;2;C;74;iracondamente;brak odmiany;N
+8;2;C;75;irascibilmente;brak odmiany;N
+8;2;C;76;enrage;czasownik;N
+8;2;C;77;rager;czasownik;N
+8;2;C;96;cholerically;przys≥Ûwek;N
+9;2;S;37;dwÛjka;rzeczownik;N
+9;2;S;39;g≥owa;rzeczownik;N
+9;2;S;40;≥eb;rzeczownik;N
+9;2;S;41;cz≥onek;rzeczownik;N
+9;2;S;44;anr‰tta;czasownik;N
+9;2;S;45;reparera;czasownik;N
+9;2;S;46;kopi;czasownik;N
+9;2;S;47;hiki;brak odmiany;N
+9;2;S;48;sakiewka;rzeczownik;N
+9;2;S;49;trzos;rzeczownik;N
+9;2;S;50;mieszek;brak odmiany;N
+9;2;S;51;torba;rzeczownik;N
+9;2;S;52;kabza;rzeczownik;N
+9;2;S;53;mantelzak;rzeczownik;N
+9;2;S;54;nosigrosz;rzeczownik;N
+9;2;S;55;burska;rzeczownik;N
+9;2;S;56;kaletka;rzeczownik;N
+9;2;S;58;walet;rzeczownik;N
+9;2;S;76;haczyk;rzeczownik;N
+9;2;S;77;znak;rzeczownik;N
+9;2;S;78;wyboru;rzeczownik;N
+9;2;S;79;armata;rzeczownik;N
+9;2;S;80;flet;rzeczownik;N
+9;2;S;81;koÒ;rzeczownik;N
+9;2;S;113;dick;brak odmiany;N
+9;2;S;114;cock;brak odmiany;N
+9;2;S;115;putz;brak odmiany;N
+9;2;S;116;prick;brak odmiany;N
+9;2;S;117;peter;brak odmiany;N
+9;2;S;118;tool;brak odmiany;N
+9;2;S;119;shaft;brak odmiany;N
+9;2;S;120;pecker;brak odmiany;N
+9;2;S;121;phallus;brak odmiany;N
+9;2;S;122;member;brak odmiany;N
+9;2;S;123;willy;brak odmiany;N
+9;2;S;124;schlong;brak odmiany;N
+9;2;S;125;dong;brak odmiany;N
+9;2;S;126;chorizo;rzeczownik;N
+9;2;S;128;pyj;rzeczownik;N
+9;2;S;129;pik;rzeczownik;N
+9;2;S;130;sopio;czasownik;N
+9;2;S;131;sopitio;brak odmiany;N
+9;2;S;132;kuk;rzeczownik;N
+9;2;S;133;snorre;brak odmiany;N
+9;2;S;134;balle;brak odmiany;N
+9;2;S;135;pitt;brak odmiany;N
+9;2;S;136;petterniklas;brak odmiany;N
+9;2;S;137;snopp;brak odmiany;N
+9;2;C;22;fujarkowaÊ;czasownik;N
+9;2;C;23;fujarov˝;czasownik;N
+9;2;C;24;fujarÙËka;czasownik;N
+9;2;C;37;kapucyÒski;przymiotnik;N
+9;2;C;38;cappuccino;rzeczownik;N
+9;2;C;48;ptactwo;rzeczownik;N
+9;2;C;50;ptaszÍ;rzeczownik;N
+9;2;C;51;ptaszkowanie;rzeczownik;N
+9;2;C;53;optaszkowanie;rzeczownik;N
+9;2;C;54;ptaszniczka;rzeczownik;N
+9;2;C;55;ptasznik;rzeczownik;N
+9;2;C;56;ptaszkowaÊ;czasownik;N
+9;2;C;57;optaszkowaÊ;czasownik;N
+9;2;C;58;ptasi;przymiotnik;N
+9;2;C;59;ptaszkowy;przymiotnik;N
+9;2;C;60;ptasio;przymiotnik;N
+9;2;C;78;rodzenie;brak odmiany;N
+9;2;C;79;przyroda;rzeczownik;N
+9;2;C;80;przyrodzonoúÊ;rzeczownik;N
+9;2;C;81;przyrodziÊ;rzeczownik;N
+9;2;C;82;przyrodzony;rzeczownik;N
+9;2;C;83;przyrodni;przymiotnik;N
+9;2;C;99;Debilit‰t;czasownik;N
+9;2;C;100;debilita;brak odmiany;N
+9;2;C;101;debilnosù;brak odmiany;N
+9;2;C;102;debiln˝;brak odmiany;N
+9;2;C;103;debilne;przys≥Ûwek;N
+11;1;S;1;wrÛøka;rzeczownik;N
+11;1;C;1;ciocia;rzeczownik;N
+11;1;C;2;pociotek;rzeczownik;N
+11;1;C;3;pociotka;rzeczownik;N
+11;1;C;4;pociot;rzeczownik;N
+11;1;C;5;ciotka;rzeczownik;N
+11;1;C;6;naciot;rzeczownik;N
+11;2;S;1;wrÛøbiarka;rzeczownik;N
+11;2;S;2;wrÛøbitka;rzeczownik;N
+11;2;S;4;czarodziejka;rzeczownik;N
+11;2;S;16;wujenka;rzeczownik;N
+11;2;S;17;wujna;rzeczownik;N
+11;2;S;18;stryjenka;rzeczownik;N
+11;2;S;19;stryjna;brak odmiany;N
+11;2;S;20;menstruacja;rzeczownik;N
+11;2;S;21;miesiπczka;rzeczownik;N
+11;2;S;22;okres;rzeczownik;N
+11;2;C;1;wrÛø;rzeczownik;N
+11;2;C;2;wrÛøbiarz;rzeczownik;N
+11;2;C;3;wrÛøbita;brak odmiany;N
+11;2;C;4;wrÛøba;rzeczownik;N
+11;2;C;7;wrÛøbiarstwo;rzeczownik;N
+11;2;C;8;wrÛøenie;brak odmiany;N
+11;2;C;9;wrÛøyÊ;czasownik;N
+11;2;C;10;wywrÛøyÊ;czasownik;N
+11;2;C;11;wrÛøebny;czasownik;N
+11;2;C;12;czarownictwo;czasownik;N
+11;2;C;13;czarowstwo;czasownik;N
+11;2;C;14;czarowniczoúÊ;czasownik;N
+11;2;C;15;czar;rzeczownik;N
+11;2;C;16;czary;rzeczownik;N
+11;2;C;18;czarowaÊ;czasownik;N
+11;2;C;19;oczarowaÊ;czasownik;N
+11;2;C;20;zaczarowaÊ;czasownik;N
+11;2;C;21;czarowniczy;czasownik;N
+11;2;C;22;czarowniczo;czasownik;N
+11;2;C;25;cioteczka;rzeczownik;N
+11;2;C;26;ciotunia;rzeczownik;N
+11;2;C;27;ciotuchna;rzeczownik;N
+11;2;C;28;ciotczysko;rzeczownik;N
+11;2;C;31;cioteczny;przymiotnik;N
+11;2;C;32;ciotczyny;przymiotnik;N
+11;2;C;36;ciociny;przymiotnik;N
+11;2;C;37;ciotczany;brak odmiany;N
+11;2;C;38;ciotczony;brak odmiany;N
+12;1;S;11;muszelka;rzeczownik;N
+12;1;S;12;brzoskwinka;rzeczownik;N
+12;1;S;13;myszka;rzeczownik;N
+12;1;S;14;kotka;rzeczownik;N
+12;2;S;4;slavina;brak odmiany;N
+12;2;S;5;tonel;brak odmiany;N
+12;2;S;6;barrica;brak odmiany;N
+12;2;S;7;cuba;brak odmiany;N
+12;2;S;8;pepita;rzeczownik;N
+12;2;S;9;semilla;brak odmiany;N
+12;2;S;10;rˆkpipa;brak odmiany;N
+12;2;S;11;tobakspipa;brak odmiany;N
+12;2;S;12;rˆr;brak odmiany;N
+12;2;S;13;vissla;czasownik;N
+12;2;S;14;kvittra;czasownik;N
+12;2;S;15;yla;rzeczownik;N
+12;2;S;16;vina;rzeczownik;N
+12;2;S;17;pipetta;rzeczownik;N
+12;2;S;18;rimprovero;brak odmiany;N
+12;2;S;19;cicchetto;brak odmiany;N
+12;2;S;32;pÌËa;rzeczownik;N
+12;2;S;33;areszt;rzeczownik;N
+12;2;S;40;koza;rzeczownik;N
+12;2;S;41;ul;rzeczownik;N
+12;2;S;43;dziupla;rzeczownik;N
+12;2;S;53;pierÛg;rzeczownik;N
+12;2;S;54;ubytek;rzeczownik;N
+12;2;S;56;saya;brak odmiany;N
+12;2;S;61;wstid;rzeczownik;N
+12;2;C;1;pipakada;rzeczownik;N
+12;2;C;2;pipatara;rzeczownik;N
+12;2;C;3;pipatzaile;brak odmiany;N
+12;2;C;4;pipatu;czasownik;N
+12;2;C;5;pipeta;rzeczownik;N
+12;2;C;7;pipande;brak odmiany;N
+12;2;C;8;pip·l;brak odmiany;N
+12;2;C;9;pip·s;brak odmiany;N
+12;2;C;10;pipaio;brak odmiany;N
+12;2;C;11;pipata;brak odmiany;N
+12;2;C;12;pipatore;brak odmiany;N
+12;2;C;14;pipare;czasownik;N
+12;2;C;15;pipettare;czasownik;N
+12;2;C;29;dziurkacz;rzeczownik;N
+12;2;C;32;dziurkarka;rzeczownik;N
+12;2;C;33;dziurawienie;rzeczownik;N
+12;2;C;34;dziurkowanie;rzeczownik;N
+12;2;C;35;podziurawienie;rzeczownik;N
+12;2;C;36;przedziurawienie;rzeczownik;N
+12;2;C;37;dziurawiÊ;czasownik;N
+12;2;C;38;przedziurawiÊ;czasownik;N
+12;2;C;39;dziurkowaÊ;czasownik;N
+12;2;C;40;podziurawiÊ;czasownik;N
+12;2;C;41;dziurawy;przymiotnik;N
+12;2;C;42;dziurowy;przymiotnik;N
+12;2;C;43;dziurawo;przymiotnik;N
+12;2;C;46;muszla;rzeczownik;N
+12;2;C;47;muszlowiec;brak odmiany;N
+12;2;C;48;muszlowy;brak odmiany;N
+12;2;C;49;muszelkowy;brak odmiany;N
+12;2;C;50;myszaty;przymiotnik;N
+12;2;C;51;mysz;rzeczownik;N
+12;2;C;52;myszkowaÊ;czasownik;N
+12;2;C;53;mysi;przymiotnik;N
+12;2;C;54;kot;rzeczownik;N
+12;2;C;55;kicia;rzeczownik;N
+12;2;C;56;kociarz;rzeczownik;N
+12;2;C;57;kociara;rzeczownik;N
+12;2;C;58;kociÊ;rzeczownik;N
+12;2;C;59;okociÊ;rzeczownik;N
+12;2;C;60;koci;przymiotnik;N
+12;2;C;61;kocio;przys≥Ûwek;N
+14;2;S;11;cudny;przymiotnik;N
+14;2;S;12;cudowny;przymiotnik;N
+14;2;S;13;uroczy;przymiotnik;N
+14;2;S;14;piÍkny;przymiotnik;N
+14;2;S;15;≥adny;przymiotnik;N
+14;2;S;16;s≥odki;przymiotnik;N
+14;2;S;19;jeleÒ;rzeczownik;N
+14;2;S;20;lolek;rzeczownik;N
+14;2;C;4;berecik;rzeczownik;N
+14;2;C;5;úlicznoúÊ;rzeczownik;N
+14;2;C;6;úlicznotka;rzeczownik;N
+14;2;C;7;úliczniutki;przymiotnik;N
+14;2;C;8;úlicznie;przys≥Ûwek;N
+14;2;C;9;úliczniutko;przys≥Ûwek;N
+15;2;S;28;Ciawa;rzeczownik;N
+15;2;S;29;Romka;rzeczownik;N
+15;2;S;31;bohema;rzeczownik;N
+15;2;S;32;romski;przymiotnik;N
+15;2;S;34;úniady;przymiotnik;N
+15;2;S;35;ciemny;przymiotnik;N
+15;2;C;1;latanie;rzeczownik;N
+15;2;C;2;lotnia;rzeczownik;N
+15;2;C;3;lataÊ;czasownik;N
+15;2;C;4;lecieÊ;czasownik;N
+15;2;C;5;latawcowy;czasownik;N
+18;1;S;19;dupjeÒc;brak odmiany;N
+18;1;S;20;dÎpsko;brak odmiany;N
+18;1;S;21;go≥owacÎzna;brak odmiany;N
+18;1;S;23;rzÎc;brak odmiany;N
+18;1;S;24;rzÎcnosc;brak odmiany;N
+18;1;S;25;slÙdk;brak odmiany;N
+18;1;S;26;sÙd;brak odmiany;N
+18;1;S;27;ti≥k;brak odmiany;N
+18;1;C;14;dÎpsko;brak odmiany;N
+18;2;S;11;sempiterna;rzeczownik;N
+18;2;S;12;ameryka;brak odmiany;N
+18;2;S;14;spoczywanie;brak odmiany;N
+18;2;S;18;erupciÛn;brak odmiany;N
+18;2;S;19;postilla;brak odmiany;N
+18;2;S;20;p˙stula;brak odmiany;N
+18;2;S;21;cris·lida;brak odmiany;N
+18;2;S;22;bambola;brak odmiany;N
+18;2;S;23;bambolotto;brak odmiany;N
+18;2;S;24;pupazzo;brak odmiany;N
+18;2;S;25;bambina;brak odmiany;N
+18;2;S;26;crisalide;brak odmiany;N
+18;2;S;27;ninfa;brak odmiany;N
+18;2;S;29;ciamajda;rzeczownik;N
+18;2;S;40;glapa;brak odmiany;N
+18;2;S;41;stirra;brak odmiany;N
+18;2;S;42;glo;czasownik;N
+18;2;S;43;skrika;czasownik;N
+18;2;S;44;ropa;rzeczownik;N
+18;2;S;45;skr‰na;czasownik;N
+18;2;S;46;gasta;czasownik;N
+18;2;S;47;vrala;czasownik;N
+18;2;S;49;hojta;czasownik;N
+18;2;S;50;dziunia;brak odmiany;N
+18;2;S;51;niunia;brak odmiany;N
+18;2;S;52;binia;brak odmiany;N
+18;2;C;2;ty≥;rzeczownik;N
+18;2;C;3;tylnik;rzeczownik;N
+18;2;C;4;tylny;przymiotnik;N
+18;2;C;5;ty≥owy;przymiotnik;N
+18;2;C;6;siadaÊ;czasownik;N
+18;2;C;7;siedzieÊ;czasownik;N
+18;2;C;8;obsiadaÊ;czasownik;N
+18;2;C;9;wysiadywaÊ;czasownik;N
+18;2;C;10;wysiadaÊ;czasownik;N
+18;2;C;11;siπúÊ;czasownik;N
+18;2;C;12;przysiπúÊ;czasownik;N
+18;2;C;13;siedziba;rzeczownik;N
+18;2;C;14;siadanie;rzeczownik;N
+18;2;C;15;siπdniÍcie;rzeczownik;N
+18;2;C;16;siad;rzeczownik;N
+18;2;C;17;siedzπcy;brak odmiany;N
+18;2;C;24;pupario;czasownik;N
+18;2;C;25;pupattola;brak odmiany;N
+18;2;C;26;pupazza;brak odmiany;N
+18;2;C;36;gap;rzeczownik;N
+18;2;C;37;gapande;rzeczownik;N
+18;2;C;38;upelgile;brak odmiany;N
+18;2;C;39;upeltegi;brak odmiany;N
+18;2;C;40;upelgintza;brak odmiany;N
+18;2;C;41;upeleratu;brak odmiany;N
+18;2;C;42;dupiú;czasownik;N
+18;2;C;43;rzÎcuszka;czasownik;N
+18;2;C;44;rzÎtuszka;czasownik;N
+18;2;C;45;rzÎcynka;czasownik;N
+20;0;B;0;garbaty;rzeczownik;N
+20;1;S;1;puklaty;brak odmiany;N
+20;1;C;1;garb;rzeczownik;N
+20;1;C;2;garbus;rzeczownik;N
+20;1;C;3;garbuska;rzeczownik;N
+20;1;C;4;garbatoúÊ;rzeczownik;N
+20;1;C;5;garbienie;rzeczownik;N
+20;1;C;6;garbiÊ;rzeczownik;N
+20;1;C;7;garbato;przys≥Ûwek;N
+20;2;S;1;kifoza;przys≥Ûwek;N
+20;2;S;2;pukiel;brak odmiany;N
+20;2;S;3;pukel;brak odmiany;N
+20;2;S;4;wybrzuszenie;rzeczownik;N
+20;2;S;5;wypuk≥oúÊ;brak odmiany;N
+20;2;S;7;chrzπszcz;rzeczownik;N
+20;2;S;8;chrabπszcz;rzeczownik;N
+20;2;S;9;piacevole;brak odmiany;N
+20;2;S;10;gradevole;brak odmiany;N
+20;2;S;11;carino;brak odmiany;N
+20;2;S;12;gentile;brak odmiany;N
+20;2;S;13;cortese;brak odmiany;N
+20;2;S;14;educato;brak odmiany;N
+20;2;C;5;garbusik;brak odmiany;N
+20;2;C;8;zgarbiÊ;brak odmiany;N
+20;2;C;9;garbless;brak odmiany;N
+20;2;C;11;przygarbiÊ;brak odmiany;N
+20;2;C;12;garbusek;brak odmiany;N
+20;2;C;14;garbek;brak odmiany;N
+21;0;B;0;gnida;brak odmiany;N
+21;1;C;1;gnidig;brak odmiany;N
+21;2;S;1;gniden;brak odmiany;N
+21;2;S;2;snal;brak odmiany;N
+21;2;S;3;njugg;brak odmiany;N
+21;2;S;4;knusslig;brak odmiany;N
+21;2;C;2;gnidigt;brak odmiany;N
+24;2;S;1;tÍgi;przymiotnik;N
+24;2;S;2;zaøywny;przymiotnik;N
+24;2;S;3;korpulentny;przymiotnik;N
+24;2;S;22;cysterna;rzeczownik;N
+24;2;S;23;ubaw;brak odmiany;N
+24;2;S;24;zabawa;rzeczownik;N
+24;2;S;25;fun;brak odmiany;N
+24;2;S;26;dirulaguntza;brak odmiany;N
+24;2;S;27;bu≥ka;rzeczownik;N
+24;2;S;28;weka;brak odmiany;N
+24;2;S;29;gula;rzeczownik;N
+24;2;S;31;guz;rzeczownik;N
+24;2;S;32;bula;rzeczownik;N
+24;2;S;34;niezgu≥a;brak odmiany;N
+24;2;S;36;gryncbu≥a;brak odmiany;N
+24;2;S;37;bry≥a;rzeczownik;N
+24;2;S;38;gruda;rzeczownik;N
+24;2;S;39;kula;rzeczownik;N
+24;2;S;40;miÍsieÒ;rzeczownik;N
+24;2;S;41;musku≥;rzeczownik;N
+24;2;S;43;ga≥uszka;brak odmiany;N
+24;2;S;45;klops;rzeczownik;N
+24;2;S;72;satyr;rzeczownik;N
+24;2;S;77;kaliber;rzeczownik;N
+24;2;S;78;przekrÛj;rzeczownik;N
+24;2;S;79;warstwa;rzeczownik;N
+24;2;S;80;t≥ustoúÊ;brak odmiany;N
+24;2;S;81;topornoúÊ;brak odmiany;N
+24;2;S;82;ciÍøkoúÊ;brak odmiany;N
+24;2;S;83;oty≥oúÊ;rzeczownik;N
+24;2;S;86;obficie;przys≥Ûwek;N
+24;2;S;87;niedrobno;przys≥Ûwek;N
+24;2;S;88;bardzo;przys≥Ûwek;N
+24;2;S;89;duøo;przys≥Ûwek;N
+24;2;S;90;znacznie;przys≥Ûwek;N
+24;2;S;91;korpulentnie;przys≥Ûwek;N
+24;2;S;92;otyle;przys≥Ûwek;N
+24;2;S;93;tÍgo;przys≥Ûwek;N
+24;2;S;94;nisko;przys≥Ûwek;N
+24;2;S;95;nieprzyzwoicie;przys≥Ûwek;N
+24;2;S;98;nieüle;przys≥Ûwek;N
+24;2;C;27;bekadun;brak odmiany;N
+24;2;C;28;bu≥czanka;rzeczownik;N
+24;2;C;29;bu≥czarka;rzeczownik;N
+24;2;C;30;bu≥czak;rzeczownik;N
+24;2;C;31;bu≥karz;rzeczownik;N
+24;2;C;32;bu≥kowanie;rzeczownik;N
+24;2;C;34;bu≥eczka;rzeczownik;N
+24;2;C;36;bu≥kowaÊ;rzeczownik;N
+24;2;C;37;bu≥czany;rzeczownik;N
+24;2;C;38;bu≥kowy;rzeczownik;N
+24;2;C;39;bu≥eczny;rzeczownik;N
+24;2;C;41;klusek;rzeczownik;N
+24;2;C;43;Kluski;rzeczownik;N
+24;2;C;44;Kluska;rzeczownik;N
+24;2;C;54;przet≥uszczanie;rzeczownik;N
+24;2;C;55;przet≥uszczenie;rzeczownik;N
+24;2;C;57;przet≥uszczony;brak odmiany;N
+24;2;C;58;t≥usto;brak odmiany;N
+24;2;C;59;t≥uszczyk;brak odmiany;N
+24;2;C;62;nat≥uúciÊ;czasownik;N
+24;2;C;65;wieprzowina;rzeczownik;N
+24;2;C;66;wieprzowinka;rzeczownik;N
+24;2;C;68;wieprzowy;przymiotnik;N
+24;2;C;71;puszystoúÊ;rzeczownik;N
+24;2;C;72;puch;rzeczownik;N
+24;2;C;73;puszyúcie;rzeczownik;N
+24;2;C;74;puszysto;rzeczownik;N
+24;2;C;75;puchowy;przymiotnik;N
+26;2;S;1;vlezdoprdelka;brak odmiany;N
+27;1;S;27;imbÈcil;rzeczownik;N
+27;1;S;28;tonto;brak odmiany;N
+27;1;S;29;bobo;brak odmiany;N
+27;1;S;30;majadero;brak odmiany;N
+27;1;S;31;stupido;brak odmiany;N
+27;1;S;32;cretino;brak odmiany;N
+27;1;S;33;sciocco;brak odmiany;N
+27;1;S;34;scemo;brak odmiany;N
+27;1;S;35;stolto;brak odmiany;N
+27;1;S;36;imbecille;brak odmiany;N
+27;1;S;37;rimbambito;brak odmiany;N
+27;1;S;38;ignorante;brak odmiany;N
+27;1;S;39;rozzo;brak odmiany;N
+27;1;S;40;beota;brak odmiany;N
+27;1;S;41;ebete;brak odmiany;N
+27;1;S;42;deficiente;brak odmiany;N
+27;1;S;43;minorato;brak odmiany;N
+27;1;S;44;subnormale;brak odmiany;N
+27;1;C;11;idiozia;brak odmiany;N
+27;1;C;12;idiotizar;brak odmiany;N
+27;1;C;13;idiotez;brak odmiany;N
+27;1;C;14;idiotismo;brak odmiany;N
+27;1;C;15;idiocia;brak odmiany;N
+27;2;S;1;posπøek;rzeczownik;N
+27;2;S;2;figurka;rzeczownik;N
+27;2;S;3;grzywacz;rzeczownik;N
+27;2;S;4;cieÒ;rzeczownik;N
+27;2;S;24;b≥azen;rzeczownik;N
+27;2;S;25;cep;rzeczownik;N
+27;2;S;49;lelo;brak odmiany;N
+27;2;S;50;est˙pido;brak odmiany;N
+27;2;S;52;tarado;brak odmiany;N
+27;2;S;53;retrasado;brak odmiany;N
+27;2;S;54;subnormal;brak odmiany;N
+27;2;S;55;desequilibrado;brak odmiany;N
+27;2;S;57;fesso;brak odmiany;N
+27;2;S;58;gonzo;brak odmiany;N
+27;2;S;59;grullo;brak odmiany;N
+27;2;S;61;interdetto;brak odmiany;N
+27;2;S;65;stordito;brak odmiany;N
+27;2;S;67;babbeo;brak odmiany;N
+27;2;S;69;bischero;brak odmiany;N
+27;2;S;70;citrullo;brak odmiany;N
+27;2;S;71;coglione;brak odmiany;N
+27;2;S;72;microcefalo;brak odmiany;N
+27;2;S;73;minchione;brak odmiany;N
+27;2;S;74;mona;brak odmiany;N
+27;2;S;75;pirla;brak odmiany;N
+27;2;S;76;sempliciotto;brak odmiany;N
+27;2;S;78;simple;brak odmiany;N
+27;2;S;79;ottuso;brak odmiany;N
+27;2;S;80;poco;brak odmiany;N
+27;2;S;81;intelligente;brak odmiany;N
+27;2;S;82;insensato;brak odmiany;N
+27;2;S;83;ingenuo;brak odmiany;N
+27;2;S;84;stupito;brak odmiany;N
+27;2;S;85;attonito;brak odmiany;N
+27;2;S;86;sbalordito;brak odmiany;N
+27;2;S;88;scimunito;brak odmiany;N
+27;2;S;89;balordo;brak odmiany;N
+27;2;S;92;rimbecillito;brak odmiany;N
+27;2;S;93;defectuoso;brak odmiany;N
+27;2;S;94;imperfecto;brak odmiany;N
+27;2;S;95;ineficiente;brak odmiany;N
+27;2;S;96;ineficaz;brak odmiany;N
+27;2;S;97;incompleto;brak odmiany;N
+27;2;S;98;pobre;brak odmiany;N
+27;2;S;99;defectivo;brak odmiany;N
+27;2;S;100;falto;rzeczownik;N
+27;2;S;101;carente;brak odmiany;N
+27;2;S;102;desprovisto;brak odmiany;N
+27;2;S;103;escaso;brak odmiany;N
+27;2;S;104;de;rzeczownik;N
+27;2;S;105;insuficiente;brak odmiany;N
+27;2;S;106;exiguo;brak odmiany;N
+27;2;S;107;anormal;brak odmiany;N
+27;2;C;41;tontear;czasownik;N
+27;2;C;42;atontar;czasownik;N
+27;2;C;43;atontarse;czasownik;N
+27;2;C;44;tontiloco;czasownik;N
+27;2;C;45;tonterÌa;brak odmiany;N
+27;2;C;46;tontada;brak odmiany;N
+27;2;C;47;tontaina;brak odmiany;N
+27;2;C;48;tontorrÛn;brak odmiany;N
+27;2;C;49;tontera;brak odmiany;N
+27;2;C;50;tontolaba;brak odmiany;N
+27;2;C;51;tontolcarajo;brak odmiany;N
+27;2;C;52;bobear;brak odmiany;N
+27;2;C;53;bobada;brak odmiany;N
+27;2;C;54;boberÌa;brak odmiany;N
+27;2;C;55;bobales;brak odmiany;N
+27;2;C;56;istupidimento;brak odmiany;N
+27;2;C;57;stupidaggine;brak odmiany;N
+27;2;C;58;stupidezza;brak odmiany;N
+27;2;C;59;stupidita;brak odmiany;N
+27;2;C;60;istupidire;brak odmiany;N
+27;2;C;61;stupidire;czasownik;N
+27;2;C;62;stupidamente;czasownik;N
+27;2;C;63;cretina;brak odmiany;N
+27;2;C;64;cretinata;brak odmiany;N
+27;2;C;65;cretineria;brak odmiany;N
+27;2;C;66;cretinismo;brak odmiany;N
+27;2;C;67;cretinamente;przys≥Ûwek;N
+27;2;C;68;sciocchezza;brak odmiany;N
+27;2;C;69;scemenza;brak odmiany;N
+27;2;C;70;scemata;brak odmiany;N
+27;2;C;71;stoltezza;brak odmiany;N
+27;2;C;72;imbecillita;brak odmiany;N
+27;2;C;73;ignorancia;brak odmiany;N
+27;2;C;74;ignorar;czasownik;N
+27;2;C;75;ignor‚ncia;brak odmiany;N
+27;2;C;76;ignoranza;brak odmiany;N
+27;2;C;77;ignorare;czasownik;N
+27;2;C;78;rozzamente;przys≥Ûwek;N
+27;2;C;79;ebetaggine;brak odmiany;N
+27;2;C;80;ebetismo;brak odmiany;N
+27;2;C;81;deficitario;brak odmiany;N
+27;2;C;82;deficiencia;brak odmiany;N
+27;2;C;83;dÈficit;brak odmiany;N
+27;2;C;84;deficit;rzeczownik;N
+27;2;C;85;deficienza;brak odmiany;N
+27;2;C;87;idiotka;rzeczownik;N
+30;1;C;1;kaczystka;rzeczownik;N
+30;1;C;2;kaczysta;rzeczownik;N
+30;1;C;4;kaczπtko;rzeczownik;N
+32;1;C;10;katastrofick˝;brak odmiany;N
+32;1;C;11;katastrof·lnosù;brak odmiany;N
+32;1;C;12;katastrofickosù;brak odmiany;N
+32;1;C;13;katastrofizmus;brak odmiany;N
+32;1;C;14;katastrof·lny;brak odmiany;N
+32;1;C;15;katastrof·lne;przys≥Ûwek;N
+32;1;C;16;katastroficky;przys≥Ûwek;N
+32;2;S;15;ezbehar;brak odmiany;N
+32;2;S;16;zorigaitz;brak odmiany;N
+32;2;S;17;zorigaizto;brak odmiany;N
+32;2;S;18;tragika;przymiotnik;N
+32;2;S;19;disgrazia;brak odmiany;N
+32;2;S;20;disastro;brak odmiany;N
+32;2;S;21;sciagura;brak odmiany;N
+32;2;S;22;catastrofe;brak odmiany;N
+32;2;S;23;rovina;rzeczownik;N
+32;2;S;24;calamita;brak odmiany;N
+32;2;S;25;lutto;brak odmiany;N
+32;2;S;26;sinistro;brak odmiany;N
+32;2;S;28;nieszczÍúliwy;przymiotnik;N
+32;2;S;30;niebezpieczny;przymiotnik;N
+32;2;S;32;apokaliptyczny;przymiotnik;N
+32;2;C;10;tragiko;brak odmiany;N
+32;2;C;11;tragedio;rzeczownik;N
+32;2;C;12;tr·gico;brak odmiany;N
+32;2;C;13;tr·gicamente;przys≥Ûwek;N
+32;2;C;14;tragediante;przys≥Ûwek;N
+32;2;C;15;tragedo;przys≥Ûwek;N
+32;2;C;16;tragico;brak odmiany;N
+32;2;C;17;tragediabile;brak odmiany;N
+32;2;C;18;tragicamente;brak odmiany;N
+32;2;C;29;katastrof·lnÌ;brak odmiany;N
+32;2;C;30;katastrof·lnÏ;brak odmiany;N
+35;2;S;44;panienka;brak odmiany;N
+35;2;S;45;profesjonalistka;brak odmiany;N
+35;2;S;46;Êma;rzeczownik;N
+35;2;S;47;alejÛwka;rzeczownik;N
+35;2;S;99;denerwowaÊ;czasownik;N
+35;2;S;101;siÍ;czasownik;N
+35;2;S;103;wzburzony;czasownik;N
+35;2;S;104;zdenerwowany;przymiotnik;N
+35;2;S;107;niesamowicie;przys≥Ûwek;N
+35;2;S;108;szczegÛlnie;przys≥Ûwek;N
+35;2;S;109;wyjπtkowo;przys≥Ûwek;N
+35;2;S;110;szalenie;rzeczownik;N
+39;1;S;1;asu-kutun;brak odmiany;N
+39;1;C;1;melaÊ;czasownik;N
+39;1;C;2;melar;czasownik;N
+39;1;C;3;melificar;czasownik;N
+39;1;C;4;meloso;czasownik;N
+39;1;C;5;melado;czasownik;N
+39;1;C;6;melificado;czasownik;N
+39;1;C;7;melÌfero;brak odmiany;N
+39;1;C;8;melifluo;brak odmiany;N
+39;1;C;9;miel;brak odmiany;N
+39;1;C;10;melosidad;brak odmiany;N
+39;1;C;11;melaza;brak odmiany;N
+39;1;C;12;melada;brak odmiany;N
+39;1;C;13;meloja;brak odmiany;N
+39;1;C;14;meladura;brak odmiany;N
+39;1;C;15;melificaciÛn;brak odmiany;N
+39;1;C;16;melificador;brak odmiany;N
+39;1;C;17;melata;brak odmiany;N
+39;1;C;18;meleto;brak odmiany;N
+39;1;C;19;melo;rzeczownik;N
+39;2;S;4;az˙car;brak odmiany;N
+39;2;C;1;melanie;rzeczownik;N
+39;2;C;17;hidromiel;brak odmiany;N
+39;2;C;18;mielleux;brak odmiany;N
+39;2;C;19;mielero;brak odmiany;N
+39;2;C;20;melero;brak odmiany;N
+39;2;C;22;mieles;brak odmiany;N
+39;2;C;26;Indeks:Esperanto - Ssaki;brak odmiany;N
+40;2;S;2;oblicze;rzeczownik;N
+40;2;S;3;twarz;rzeczownik;N
+40;2;S;10;usta;rzeczownik;N
+40;2;C;16;ryjÛwka;rzeczownik;N
+40;2;C;20;sznupaÊ;czasownik;N
+40;2;C;21;jadalnia;rzeczownik;N
+40;2;C;22;jadalnoúÊ;rzeczownik;N
+40;2;C;23;jadaÊ;czasownik;N
+40;2;C;24;jeúÊ;czasownik;N
+45;1;S;3;wiÍzienie;rzeczownik;N
+45;2;C;1;wiÍzieÒ;rzeczownik;N
+45;2;C;2;wiÍüniarka;rzeczownik;N
+45;2;C;3;wiÍziennictwo;rzeczownik;N
+45;2;C;4;wiÍziennik;rzeczownik;N
+45;2;C;5;uwiÍzienie;rzeczownik;N
+45;2;C;6;wiÍziÊ;czasownik;N
+45;2;C;7;uwiÍziÊ;czasownik;N
+45;2;C;8;wiÍzienny;przymiotnik;N
+45;2;C;9;wokÛ≥wiÍzienny;przymiotnik;N
+45;2;C;10;przywiÍzienny;przymiotnik;N
+45;2;C;11;wiÍüniarski;przymiotnik;N
+45;2;C;12;wiÍzienniczy;przymiotnik;N
+50;1;S;6;ha≥as;rzeczownik;N
+50;1;S;7;wrzask;rzeczownik;N
+50;2;S;2;k≥Ûtnia;rzeczownik;N
+50;2;S;3;sprzeczka;rzeczownik;N
+50;2;S;7;awantaø;rzeczownik;N
+50;2;S;10;wataha;rzeczownik;N
+50;2;S;14;larum;brak odmiany;N
+50;2;S;16;rwetes;rzeczownik;N
+50;2;S;17;tumult;rzeczownik;N
+50;2;C;2;awanturnica;rzeczownik;N
+50;2;C;3;awanturnictwo;rzeczownik;N
+50;2;C;4;awanturowaÊ;rzeczownik;N
+50;2;C;5;awanturniczy;przymiotnik;N
+50;2;C;6;draczny;przymiotnik;N
+50;2;C;7;drako;rzeczownik;N
+50;2;C;8;grandziarz;rzeczownik;N
+50;2;C;9;grandziÊ;czasownik;N
+50;2;C;10;grando;rzeczownik;N
+50;2;C;11;grandulo;rzeczownik;N
+50;2;C;12;pligrandigo;rzeczownik;N
+50;2;C;13;trograndigo;rzeczownik;N
+50;2;C;14;grandigi;czasownik;N
+50;2;C;15;pligrandigi;czasownik;N
+50;2;C;16;plimalgrandigi;czasownik;N
+50;2;C;17;plimalgrandigi;czasownik;N
+50;2;C;18;ha≥asowanie;rzeczownik;N
+50;2;C;19;ha≥asik;rzeczownik;N
+50;2;C;20;ha≥aúliwy;przymiotnik;N
+50;2;C;21;wyha≥asiÊ;czasownik;N
+50;2;C;22;ha≥asiÊ;czasownik;N
+50;2;C;23;ha≥asowaÊ;czasownik;N
+50;2;C;24;ha≥aúliwie;przys≥Ûwek;N
+50;2;C;25;wrzaskliwy;brak odmiany;N
+50;2;C;26;wrzaskliwie;brak odmiany;N
+50;2;C;27;wrzeszczeÊ;czasownik;N
+50;2;C;28;wrzasnπÊ;czasownik;N
+51;1;S;1;selfie;rzeczownik;N
+51;1;S;2;selfik;rzeczownik;N
+51;1;S;3;fota;brak odmiany;N
+51;1;S;4;fotka;rzeczownik;N
+51;2;S;1;selfiak;rzeczownik;N
+51;2;S;3;selfka;rzeczownik;N
+51;2;S;4;focia;rzeczownik;N
+51;2;S;8;zelfje;rzeczownik;N
+51;2;C;2;self;brak odmiany;N
+51;2;C;3;fotografia;rzeczownik;N
+51;2;C;4;fotograf;rzeczownik;N
+51;2;C;5;fotografika;brak odmiany;N
+51;2;C;6;fotografik;brak odmiany;N
+51;2;C;7;fotografizm;brak odmiany;N
+51;2;C;8;fotogram;brak odmiany;N
+51;2;C;9;fotografowanie;rzeczownik;N
+51;2;C;10;foto;rzeczownik;N
+51;2;C;11;fotografowaÊ;czasownik;N
+51;2;C;12;sfotografowaÊ;czasownik;N
+51;2;C;13;fotograficzny;przymiotnik;N
+51;2;C;14;fotograficznie;przymiotnik;N
+51;2;C;15;fotoapar·t;rzeczownik;N
+51;2;C;16;fotografie;rzeczownik;N
+51;2;C;17;fotografka;rzeczownik;N
+51;2;C;18;fotografovat;czasownik;N
+51;2;C;19;fotit;czasownik;N
+51;2;C;20;fotografick˝;brak odmiany;N
+52;1;S;1;szewc;rzeczownik;N
+52;1;C;1;sieroctwo;brak odmiany;N
+52;1;C;2;sierociniec;rzeczownik;N
+52;1;C;3;osierocenie;rzeczownik;N
+52;1;C;4;osierocanie;rzeczownik;N
+52;1;C;5;sierotki;rzeczownik;N
+52;1;C;6;Sieroty;rzeczownik;N
+52;1;C;7;osierocaÊ;czasownik;N
+52;1;C;8;osierociÊ;czasownik;N
+52;1;C;9;sierocy;przymiotnik;N
+52;2;S;1;kamasznik;przymiotnik;N
+52;2;S;2;szwydryga;przymiotnik;N
+52;2;S;3;szewiec;brak odmiany;N
+52;2;S;5;koluszczka;brak odmiany;N
+52;2;S;6;koluszka;brak odmiany;N
+52;2;S;7;ochronka;rzeczownik;N
+52;2;S;8;przytu≥ek;brak odmiany;N
+52;2;C;1;szewstwo;brak odmiany;N
+52;2;C;2;szewcowa;brak odmiany;N
+52;2;C;3;szewcÛwna;brak odmiany;N
+52;2;C;4;szewski;przymiotnik;N
+52;2;C;8;sierotka;rzeczownik;N
+52;2;C;13;sierocoúÊ;rzeczownik;N
+56;2;S;9;psinka;rzeczownik;N
+56;2;S;10;piesek;rzeczownik;N
+56;2;S;11;pieseczek;rzeczownik;N
+56;2;C;10;psi;przymiotnik;N
+56;2;C;11;psioczyÊ;czasownik;N
+56;2;C;12;psicov˝;czasownik;N
+56;2;C;13;psowate;rzeczownik;N
+56;2;C;15;psiπtko;rzeczownik;N
+56;2;C;16;psiaczek;rzeczownik;N
+56;2;C;18;psiak;rzeczownik;N
+56;2;C;19;psisko;rzeczownik;N
+56;2;C;20;Piesiewicz;rzeczownik;N
+56;2;C;21;psowaty;rzeczownik;N
+56;2;C;22;pieski;przymiotnik;N
+56;2;C;23;psio;przys≥Ûwek;N
+56;2;C;24;pas;rzeczownik;N
+56;2;C;25;pes;rzeczownik;N
+56;2;C;26;psÌk;brak odmiany;N
+56;2;C;27;psÌËek;brak odmiany;N
+56;2;C;28;psÌËa;brak odmiany;N
+56;2;C;29;psÌËatko;brak odmiany;N
+56;2;C;30;psÌ;przymiotnik;N
+56;2;C;31;sensuka;przymiotnik;N
+64;1;S;9;skrÍpowanie;rzeczownik;N
+64;1;C;1;wstydliwoúÊ;rzeczownik;N
+64;1;C;2;wstydzenie;rzeczownik;N
+64;1;C;3;zawstydzenie;rzeczownik;N
+64;1;C;4;wstydziÊ;czasownik;N
+64;1;C;5;zawstydzaÊ;czasownik;N
+64;1;C;6;wstydliwy;przymiotnik;N
+64;1;C;7;wstydliwie;przys≥Ûwek;N
+64;1;C;8;zawstydzony;przymiotnik;N
+64;1;C;9;stydnπÊ;czasownik;N
+64;1;C;10;stygnπÊ;czasownik;N
+64;2;S;4;krewa;rzeczownik;N
+64;2;S;5;degradacja;rzeczownik;N
+64;2;S;6;dyshonor;rzeczownik;N
+64;2;S;7;obelga;rzeczownik;N
+64;2;S;24;onieúmielenie;rzeczownik;N
+64;2;S;27;zmieszanie;rzeczownik;N
+64;2;S;31;bojaüliwy;przymiotnik;N
+64;2;S;32;nieúmia≥y;przymiotnik;N
+64;2;S;33;p≥ochliwy;przymiotnik;N
+64;2;S;34;skrÍpowany;czasownik;N
+64;2;S;35;skromny;przymiotnik;N
+64;2;S;36;krÍpujπcy;przymiotnik;N
+64;2;S;38;niezrÍczny;przymiotnik;N
+64;2;S;40;onieúmielony;brak odmiany;N
+64;2;C;7;pokora;rzeczownik;N
