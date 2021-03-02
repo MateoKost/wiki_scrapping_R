@@ -44,53 +44,7 @@ declension_hatred_cleaned %<>% select( -c('left','right') )  %>% rbind( additon_
         arrange( id, deph, type, type_id, word )
 head(adeclension_hatred_cleaned,10)
 
-#head(declension_hatred_cleaned,10)
-
-write.table( declension_hatred_cleaned, file = "./declension_hatred_cleaned2.csv", 
+write.table( declension_hatred_cleaned, file = "./declension_hatred_cleaned.csv", 
              append = F, sep = ';', row.names = F, 
              col.names = T, fileEncoding = "windows-1250" )
 
-
-
-
-
-
-# 
-# ke <- data.frame(id=integer(), te=character())
-# ke %<>% rbind( data.frame(id=1,te='.mw-parser-output .potential-form{opacity:0.4;font-weight:normal;cursor:help}.mw-parser-output .potential-form:hover{opacity:inherit}@media print{.mw-parser-output .potential-form{font-style:italic;opacity:inherit}}odmałpowałom'))
-# ke %<>% rbind( data.frame(id=2,te='bido   '))
-# ke %<>% rbind( data.frame(id=3,te='biedaczyni / biedaczyny'))
-# ke %<>% rbind( data.frame(id=4,te='bi2edaczyni / bie2daczyny'))
-# ke %<>% rbind( data.frame(id=5,te='bido2'))
-# ke %<>% rbind( data.frame(id=6,te='brudasów / brudasy[1]'))
-# ke 
-# View(ke)
-# 
-# #install.packages('reshape2')
-# 
-# library(reshape2)
-# 
-# df <- colsplit(ke$te, "/", c("left", "right"))
-# df
-# View(df)
-# 
-# ke$te <- gsub( '[[:space:]]+|\\[[0-9]\\]', '', ke$te )
-# ke %<>% cbind(colsplit(ke$te, "/", c("left", "right")))
-# ke2 <- ke %>% filter( right!='') %>% select(id, right) 
-# ke2 %<>% rename( te=right )
-# ke$te<-ke$left
-# ke %<>% select( id, te ) %>% rbind( ke2 )
-# 
-# 
-# ke2
-# 
-# 
-# 
-# ke
-# View(ke)
-# 
-# sentiments 
-# 
-# sentiments <- gsub( '\\.mw.*}}', '', ke ) %>% stripWhitespace()
-# sentiments
-# 

@@ -25,7 +25,6 @@ getDeclension <- function( page_html ) {
                 if ( length( declension_df ) > 0 ) {
                         declension_df %<>% extract(2:3) %>% removePunctuation() 
                         declension_df <- gsub( '[[:space:]]', '', declension_df ) 
-                        #declension_df %>% print()
                         declension_df %>% return()
                 }
                 return(NULL)
@@ -44,9 +43,8 @@ getDeclension <- function( page_html ) {
                                 form_word <<- "czasownik"
                                 if ( length( declension_df ) > 0 ) {
                                         declension_df %<>% select( contains( "forma" ) | starts_with( "liczba" ) )
-                                        declension_df %<>% filter( forma %in% conjugation_forms )   %>% return()
-                                        #declension_df <- gsub( ' się', '', declension_df ) 
-                                        # declension_df %>% return()
+                                        declension_df %<>% filter( forma %in% conjugation_forms ) %>% return()
+   
                                 }
                         }
                 } else if( length( i <- grep( "przymiotnik|rzeczownik", form_class[ 1 ] ) ) ){
@@ -112,11 +110,11 @@ appendWord <- function( wordParams, declension, dest ) {
         if( dest == 'R' ) {
                 df <- data.frame( id = rId, deph = deph, type = typ, type_id = tpId, 
                                   word = declension, form = form_word, category = cat )
-                file_loc = "./register_hatred.csv"
+                file_loc = "OutputData/register_hatred.csv"
         } else if ( dest == 'D' ) {
                 df <- data.frame( Id = rId, deph = deph, type = typ, type_id = tpId,
                                   declension = declension )
-                file_loc = "./declension_hatred.csv"
+                file_loc = "OutputData/declension_hatred.csv"
                
         }
         write.table( df, file = file_loc, append = T, sep = ';', row.names = F, 
