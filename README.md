@@ -1,4 +1,4 @@
-Gromadzenie negatywnych słów
+Polish swear words gathering
 ================
 Mateusz Kostrzewski
 March 2, 2021
