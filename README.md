@@ -3,77 +3,74 @@ Gromadzenie negatywnych słów
 Mateusz Kostrzewski
 March 2, 2021
 
-## Wprowadzenie
+## Introduction
 
-Autorska metoda opiera się na znajdowaniu dla każdego słowa tablic
-odmian i zbioru słów o podobnym znaczeniu. Na podstawie listy
-nieprzyzwoitych słów tworzony jest rejestr uzupełniony o synonimy i
-wyrazy pokrewne. Następnie wyrazy są odmieniane w zależności od części
-mowy. Rejestr wymaga ręcznego odrzucenia wyrazów błędnie przypisanych
-jako synonim, odmiana lub wyraz pokrewny i usunięcia ich z finalnego
-pliku. Proces przedstawiono na **Diag.1**.
+The author’s method is based on finding for each word a table of
+variations and a set of derived terms or synonyms. Firstly, the register
+with synonyms and related words is created. The words are then
+declensioned according to their form. Manual rejection of words
+incorrectly assigned is required in order to remove them from the final
+file. The process is shown in **Diag.1**.
 
 <center>
 
-![alt text here](Diagrams/1.png) **Diag.1. Proces gromadzenia
-negatywnych słów**
+![alt text here](Diagrams/3.png) **Diag.1. Process of gathering negative
+words dataset**
 
 </center>
 
-## Zastosowane narzędzia
+## Tools
 
-Do tego zadania wykorzystano bibliotekę
-[rvest](https://github.com/tidyverse/rvest) i narzędzia deweloperskie
-przeglądarki Google Chrome. Zbadano elementy witryny
-[pl.wikitionary.org](pl.wikitionary.org) i odczytano ścieżki XPath do
-obiektów (węzłów) html przechowujących informacje tj. część mowy, tabele
-odmian przez liczby, stopnie i przypadki oraz listy słów pokrewnych i
-synonimów. Skorzystano z wyrażeń regularnych do redukcji tekstu.
-Modyfikacja tekstu możliwa dzięki bibliotekom:
-[magrittr](https://github.com/tidyverse/magrittr),
-[tm](https://github.com/cran/tm) i
+The [rvest](https://github.com/tidyverse/rvest) library and Google
+Chrome developer tools were used for this task. The
+[pl.wikitionary.org](pl.wikitionary.org) elements were examined. XPaths
+to html objects (nodes) were read. Nodes store information such as form,
+tables of varieties by numbers, degrees and cases, and lists of related
+words and synonyms. There was need of using regular expressions for text
+reduction. Text modification was possible with using the following
+libraries: [magrittr](https://github.com/tidyverse/magrittr),
+[tm](https://github.com/cran/tm) and
 [reshape2](https://github.com/hadley/reshape)
 
-Koniecznym elementem obsługi żądań http jest zastosowanie wyjątków,
-ponieważ istnieje możliwość, że podstrona ze słowem nie została
-utworzona. W celu uniknięcia podejrzeń serwera o stosowanie ataku DOS
-skrypt odczekuje 1,5 sekundy po każdym żądaniu.
+Essential in handling http requests is the use of exceptions. It is
+possible that an endpoint with a particular word has not been created.
+In order to prevent the server from suspecting the use of a DOS attack,
+the script waits 1.5 seconds after each request.
 
-## Uzupełnienie zbioru słów wejściowych
+## Input list supplementation
 
-Skrypt wczytuje plik **hatred\_speech\_words.csv** zawierający listę
-słów nieprzyzwoitych. Dla każdego wyrazu pobierany jest plik .html
-opisującej go podstrony [pl.wikitionary.org](pl.wikitionary.org).
-Tworzony jest rejestr (**OutputData/register\_hatred.csv**) uzupełniony
-o synonimy i wyrazy pokrewne, dla których również wyszukuje się słowa o
-podobnym znaczeniu. Proces jest powtarzany w zależności od ustalonej
-liczby iteracji. Pojedyncze słowo w rejestrze jest rozróżniane na
-podstawie indywidualnego, wielokolumnowego identyfikatora. Następnie
-wyrazy są odmieniane w zależności od części mowy. Podproces
-przedstawiono na **Diag.2**.
+The script loads a file **hatred\_speech\_words.csv** containing a list
+of words. For each word, the .html file is downloaded from the
+[pl.wikitionary.org](pl.wikitionary.org) subpage. A registry is created
+(**OutputData/register\_hatred.csv**) supplemented with synonyms and
+related words, for which words with similar meaning are also searched.
+The process is repeated until the fixed number of iterations is reached.
+A single word in the register is distinguished based on its individual
+multi-column identifier. The words are then declensioned. The subprocess
+is shown in **Diag.2**.
 
 <center>
 
-![alt text here](Diagrams/2.png)
+![alt text here](Diagrams/4.png)
 
 </center>
 
 <center>
 
-**Diag.2. Proces uzupełnienia zbioru słów wejściowych**
+**Diag.2. Process of input list supplementation**
 
 </center>
 
-## Oczyszczenie zbioru
+## Data cleaning
 
-Rejestr wymaga ręcznego odrzucenia wyrazów błędnie przypisanych jako
-synonim, odmiana lub wyraz pokrewny i usunięcia ich z finalnego pliku.
-**Cleanese/cleanese.R** filtruje błędnie odczytane teksty słów i odrzuca
-wszystkie odmiany na podstawie zmodyfikowanego rejestru, zawierającego
-słowa uznane za błędne. Powstaje plik
-**Cleanese/declension\_hatred\_cleaned.csv**. Przed uruchomieniem
-skryptu plik rejestru i odmian powinny zostać przeniesione do folderu
-**Cleanese/**
+The registry requires manual rejection of words incorrectly assigned as
+a synonym, variant, or derivered term and removing them from the final
+file. **Cleanese/cleanese.R** filters out misread word texts and
+discards all variations based on the modified registry containing the
+words determined as incorrect. The result file is
+**Cleanese/declension\_hatred\_cleaned.csv**. Before running the script,
+the registry file and variations should be moved to the **Cleanese/**
+folder.
 
 ## License
 
