@@ -2,6 +2,7 @@ Polish swear words gathering
 ================
 Mateusz Kostrzewski
 March 2, 2021
+Kaggle: [polish-negative-words)](https://www.kaggle.com/mateuszkostrzewski/polish-negative-words)
 
 ## Introduction
 
